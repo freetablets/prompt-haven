@@ -6,6 +6,10 @@
 RewriteEngine On
 RewriteBase /
 
+# 0. www -> non-www (301), canonical is https://prompt-haven.com
+RewriteCond %{HTTP_HOST} ^www\.prompt-haven\.com [NC]
+RewriteRule ^(.*)$ https://prompt-haven.com/$1 [R=301,L]
+
 # 1. /index.html -> / (homepage)
 RewriteRule ^index\.html$ / [R=301,L]
 
