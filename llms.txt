@@ -1,0 +1,44 @@
+# Prompt Haven
+
+> Prompt Haven is a free site for AI photo editing prompts. Each guide has 10 original copy and paste prompts for Google Gemini and ChatGPT, for Christmas, couples, family, babies, festive seasons and trending portrait styles. Prompts are free. Results vary by tool and photo.
+
+## Guides
+
+- [Christmas Family Photo Prompts: 10 Warm Ideas for 2026](https://prompthaven.example/christmas-family-photo.html): 10 free Christmas family photo prompts for Gemini and ChatGPT. Use your own photo and make a warm family picture for cards and gifts.
+- [Christmas Couple Prompts: 10 Romantic Ideas for 2026](https://prompthaven.example/christmas-couple.html): 10 free Christmas couple prompts for Gemini and ChatGPT. Make a warm, romantic photo with your own pictures.
+- [Baby First Christmas Prompts: 10 Sweet Ideas for 2026](https://prompthaven.example/christmas-baby-first-christmas.html): 10 free baby first Christmas prompts for Gemini and ChatGPT. Use your baby photo and make a soft, sweet Christmas picture.
+- [Christmas Portrait Prompts for Men: 10 Ideas for 2026](https://prompthaven.example/christmas-portrait-men.html): 10 free Christmas portrait prompts for men for Gemini and ChatGPT. Use your own photo and make a clean festive portrait.
+- [Christmas Portrait Prompts for Women: 10 Ideas for 2026](https://prompthaven.example/christmas-portrait-women.html): 10 free Christmas portrait prompts for women for Gemini and ChatGPT. Use your own photo and make a soft festive portrait.
+- [Winter Snow Portrait Prompts: 10 Ideas for 2026](https://prompthaven.example/winter-snow-portrait.html): 10 free winter snow portrait prompts for Gemini and ChatGPT. Use your own photo and make a clean cold weather portrait.
+- [Couple Aesthetic Prompts: 10 Ideas for ChatGPT and Gemini 2026](https://prompthaven.example/couple-aesthetic.html): 10 free couple aesthetic prompts for ChatGPT and Gemini. Use your own photos and make a soft, natural couple portrait.
+- [Couple Anniversary Prompts: 10 Ideas for 2026](https://prompthaven.example/couple-anniversary.html): 10 free couple anniversary prompts for Gemini and ChatGPT. Use your own photos and make a warm anniversary picture.
+- [Wedding Photo Prompts: 10 Ideas for Gemini and ChatGPT 2026](https://prompthaven.example/wedding.html): 10 free wedding photo prompts for Gemini and ChatGPT. Use your own photos and make a clean, warm wedding style picture.
+- [Maternity Photo Prompts: 10 Soft Ideas for 2026](https://prompthaven.example/maternity.html): 10 free maternity photo prompts for Gemini and ChatGPT. Use your own photo and make a soft, calm maternity picture.
+- [Baby First Month Boy Prompts: 10 Sweet Ideas for 2026](https://prompthaven.example/baby-first-month-boy.html): 10 free baby first month prompts for a boy for Gemini and ChatGPT. Use your baby photo and make a soft picture.
+- [Baby First Month Girl Prompts: 10 Sweet Ideas for 2026](https://prompthaven.example/baby-first-month-girl.html): 10 free baby first month prompts for a girl for Gemini and ChatGPT. Use your baby photo and make a soft picture.
+- [Birthday Boy Photo Prompts: 10 Fun Ideas for 2026](https://prompthaven.example/birthday-boy.html): 10 free birthday boy photo prompts for Gemini and ChatGPT. Use your own photo and make a bright, happy birthday picture.
+- [Birthday Girl Photo Prompts: 10 Fun Ideas for 2026](https://prompthaven.example/birthday-girl.html): 10 free birthday girl photo prompts for Gemini and ChatGPT. Use your own photo and make a bright, happy birthday picture.
+- [Autumn Portrait Prompts: 10 Warm Ideas for 2026](https://prompthaven.example/autumn-portrait.html): 10 free autumn portrait prompts for Gemini and ChatGPT. Use your own photo and make a warm autumn picture with leaves and soft light.
+- [Golden Hour Portrait Prompts: 10 Warm Ideas for 2026](https://prompthaven.example/golden-hour-portrait.html): 10 free golden hour portrait prompts for Gemini and ChatGPT. Use your own photo and make a warm sunset light portrait.
+- [Mirror Selfie Prompts: 10 Ideas for Gemini and ChatGPT 2026](https://prompthaven.example/mirror-selfie.html): 10 free mirror selfie prompts for Gemini and ChatGPT. Use your own photo and make a clean, natural mirror selfie style picture.
+- [Cinematic Black and White Portrait Prompts: 10 Ideas for 2026](https://prompthaven.example/cinematic-black-and-white-portrait.html): 10 free black and white portrait prompts for Gemini and ChatGPT. Use your own photo and make a clean film style portrait.
+- [Beach Sunset Couple Prompts: 10 Romantic Ideas for 2026](https://prompthaven.example/beach-sunset-couple.html): 10 free beach sunset couple prompts for Gemini and ChatGPT. Use your own photos and make a warm sunset beach picture.
+- [Coffee Shop Couple Prompts: 10 Warm Ideas for 2026](https://prompthaven.example/coffee-shop-couple.html): 10 free coffee shop couple prompts for Gemini and ChatGPT. Use your own photos and make a warm cafe picture.
+- [Rainy Day Portrait Prompts: 10 Ideas for 2026](https://prompthaven.example/rainy-day-portrait.html): 10 free rainy day portrait prompts for Gemini and ChatGPT. Use your own photo and make a soft, calm rainy day picture.
+- [Vintage 1980s Look Prompts: 10 Ideas for Gemini and ChatGPT 2026](https://prompthaven.example/vintage-1980s-look.html): 10 free 1980s look prompts for Gemini and ChatGPT. Use your own photo and make a retro style picture.
+- [Old Money Look Prompts: 10 Ideas for Gemini and ChatGPT 2026](https://prompthaven.example/old-money-look.html): 10 free old money look prompts for Gemini and ChatGPT. Use your own photo and make a clean, classic portrait.
+- [Travel Portrait Prompts: 10 Ideas for Gemini and ChatGPT 2026](https://prompthaven.example/travel-portrait.html): 10 free travel portrait prompts for Gemini and ChatGPT. Use your own photo and make a clean travel picture.
+- [Graduation Portrait Prompts: 10 Ideas for 2026](https://prompthaven.example/graduation-portrait.html): 10 free graduation portrait prompts for Gemini and ChatGPT. Use your own photo and make a proud graduation picture.
+- [New Year Portrait Prompts: 10 Ideas for 2026](https://prompthaven.example/new-year-portrait.html): 10 free New Year portrait prompts for Gemini and ChatGPT. Use your own photo and make a bright New Year picture.
+- [Family Portrait Prompts: 10 Warm Ideas for 2026](https://prompthaven.example/family-portrait.html): 10 free family portrait prompts for Gemini and ChatGPT. Use your own family photo and make a warm, natural family picture.
+- [Pet Portrait Prompts: 10 Cute Ideas for 2026](https://prompthaven.example/pet-portrait.html): 10 free pet portrait prompts for Gemini and ChatGPT. Use your pet photo and make a cute, clear pet picture.
+- [Spring Portrait Prompts: 10 Fresh Ideas for 2026](https://prompthaven.example/spring-portrait.html): 10 free spring portrait prompts for Gemini and ChatGPT. Use your own photo and make a fresh spring picture.
+- [Friends Portrait Prompts: 10 Fun Ideas for 2026](https://prompthaven.example/friends-portrait.html): 10 free friends portrait prompts for Gemini and ChatGPT. Use your own photos and make a fun, natural friends picture.
+
+## Pages
+
+- [About](https://prompthaven.example/about.html)
+- [Contact](https://prompthaven.example/contact.html)
+- [Privacy Policy](https://prompthaven.example/privacy-policy.html)
+- [Disclaimer](https://prompthaven.example/disclaimer.html)
+- [Terms](https://prompthaven.example/terms.html)
