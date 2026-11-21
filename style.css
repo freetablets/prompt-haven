@@ -1,6 +1,8 @@
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/inter-400-600.woff2) format('woff2')}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:800;font-display:swap;src:url(fonts/plus-jakarta-sans-800.woff2) format('woff2')}
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#475569;background:#f8fafc;line-height:1.65;font-size:17px}
-h1,h2,h3,h4{color:#0f172a;font-weight:800;line-height:1.2;margin:0 0 12px}
+body{margin:0;font-family:'Inter',system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#475569;background:#f8fafc;line-height:1.65;font-size:17px}
+h1,h2,h3,h4{font-family:'Plus Jakarta Sans','Inter',system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#0f172a;font-weight:800;line-height:1.2;margin:0 0 12px}
 h1{font-size:42px}
 h2{font-size:30px;margin:44px 0 14px;padding-left:16px;border-left:5px solid #f97316}
 h3{font-size:21px}
@@ -221,3 +223,29 @@ h2{font-size:25px}
 .builder-form select:focus{outline:2px solid #f97316;border-color:#f97316}
 .builder-form .btn{grid-column:1/-1;justify-self:start}
 @media(max-width:640px){.builder-form{grid-template-columns:1fr}}
+
+/* Back to top button */
+#toTop{position:fixed;right:24px;bottom:24px;z-index:50;width:48px;height:48px;border-radius:50%;border:0;background:#f97316;color:#fff;font-size:22px;font-weight:800;line-height:1;cursor:pointer;box-shadow:0 8px 22px rgba(15,23,42,.28);opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s ease,transform .2s ease,background .2s ease}
+#toTop:hover{background:#ea580c}
+#toTop.show{opacity:1;pointer-events:auto;transform:translateY(0)}
+#toTop:focus-visible{outline:3px solid #0f172a;outline-offset:2px}
+/* No results message */
+.no-results{background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:14px 18px;margin:16px auto 0;max-width:640px;color:#7c2d12;font-weight:600}
+/* Builder page extras */
+.builder-note{background:#fff7ed;border:1px solid #fed7aa;border-left:4px solid #f97316;border-radius:12px;padding:12px 16px;margin:0 0 18px}
+.builder-note a{font-weight:700}
+.example-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin:16px 0}
+.example-card{background:#fff;border:1px solid #e2e8f0;border-radius:16px;padding:20px;box-shadow:0 2px 8px rgba(15,23,42,.05)}
+.example-card h3{font-size:18px;margin:0 0 8px}
+.example-card .prompt-text{font-size:13.5px}
+/* Final polish: spacing, mobile footer, pick and bonus sections */
+.article-card h2{margin-top:38px}
+.article-card h2:first-of-type{margin-top:28px}
+h2 + p,h2 + .how-grid,h2 + .benefit-grid,h2 + .faq,h2 + .builder-form{margin-top:0}
+.my-pick{box-shadow:0 2px 8px rgba(15,23,42,.05)}
+@media(max-width:640px){
+#toTop{right:16px;bottom:16px;width:44px;height:44px;font-size:20px}
+footer.site .cols{grid-template-columns:1fr;gap:22px}
+footer.site{padding:40px 0 28px}
+.searchbox{padding:6px}
+}

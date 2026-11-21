@@ -28,6 +28,9 @@
 <option value="in an everyday portrait">Everyday portrait</option>
 <option value="in my baby's first month">Baby first month</option>
 <option value="at an anniversary">Anniversary</option>
+<option value="at New Year">New Year</option>
+<option value="at a baby shower">Baby shower</option>
+<option value="at a mehndi night">Mehndi night</option>
 </select></p>
 <p><label for="person">Person</label><br>
 <select id="person">
@@ -37,6 +40,9 @@
 <option value="my baby">My baby</option>
 <option value="me and my friends">Me and my friends</option>
 <option value="my pet">My pet</option>
+<option value="my parents">My parents</option>
+<option value="my siblings">My siblings</option>
+<option value="my grandparents">My grandparents</option>
 </select></p>
 <p><label for="style">Style</label><br>
 <select id="style">
@@ -46,6 +52,9 @@
 <option value="soft and dreamy">Soft and dreamy</option>
 <option value="bold and colourful">Bold and colourful</option>
 <option value="black and white">Black and white</option>
+<option value="warm film">Warm film</option>
+<option value="editorial magazine">Editorial magazine</option>
+<option value="playful and fun">Playful and fun</option>
 </select></p>
 <p><label for="lighting">Lighting</label><br>
 <select id="lighting">
@@ -55,6 +64,9 @@
 <option value="bright daylight">Bright daylight</option>
 <option value="fairy lights at dusk">Fairy lights at dusk</option>
 <option value="studio soft light">Studio soft light</option>
+<option value="candlelight">Candlelight</option>
+<option value="neon city light">Neon city light</option>
+<option value="overcast soft light">Overcast soft light</option>
 </select></p>
 <p><label for="background">Background</label><br>
 <select id="background">
@@ -64,6 +76,9 @@
 <option value="in a coffee shop">In a coffee shop</option>
 <option value="in the mountains">In the mountains</option>
 <option value="in a city street">In a city street</option>
+<option value="by a fireplace">By a fireplace</option>
+<option value="in a park">In a park</option>
+<option value="at a festival">At a festival</option>
 </select></p>
 <p><button class="btn" type="button" onclick="buildPrompt()">Build my prompt</button></p>
 </div>
@@ -71,9 +86,63 @@
 <div class="prompt-box"><p class="prompt-text" id="output">Your prompt will appear here. Pick your options above and press Build my prompt.</p><div class="tool-row"><button class="copybtn" type="button" onclick="copyBuiltPrompt(this)">Copy prompt</button><a class="tool-btn tool-gemini" href="https://gemini.google.com/" target="_blank" rel="nofollow noopener">Gemini</a><a class="tool-btn tool-chatgpt" href="https://chat.openai.com/" target="_blank" rel="nofollow noopener">ChatGPT</a></div></div>
 <h2>What to do next</h2>
 <p>Upload your photo to Gemini or ChatGPT, paste the prompt under it, and send it. If the first result is not right, change one thing in the prompt and try again. The best result is usually the second or third try, not the first.</p>
+<h2>How this builder works</h2>
+<div class="how-grid"><div class="step-card"><span class="step-num">1</span><h3>Pick five things</h3><p>I kept it to five choices on purpose. Occasion, person, style, light and background are the five things I change first when a prompt does not work, so they are the five things this builder asks you.</p></div><div class="step-card"><span class="step-num">2</span><h3>Watch it build itself</h3><p>Your prompt appears below the moment you change a dropdown, you do not even need to press the button. I made it live because I got tired of pressing build, reading, changing one thing, and pressing build again.</p></div><div class="step-card"><span class="step-num">3</span><h3>Copy it and try it</h3><p>Copy the prompt, paste it with your photo into Gemini or ChatGPT, and see what comes back. If the face looks off, change the lighting first. That one change fixes more photos for me than anything else.</p></div></div>
+<h2>Try one of these first</h2>
+<p>I use these three myself when I want a quick result and I do not feel like fiddling with the dropdowns. Copy one, paste it with your photo, and see what you get.</p>
+<div class="example-grid">
+<div class="example-card"><h3>Birthday in the garden</h3><div class="prompt-box"><p class="prompt-text">Create a realistic, natural photo from my uploaded photo. Keep the face exactly the same as in the uploaded photo, with the same eyes, smile, hair and skin tone. Do not change the person into someone else, and do not make the skin look smooth or plastic. Show me celebrating a birthday in a garden at golden hour, with soft warm sun on my face and fairy lights in the trees behind me. Keep the pose relaxed, mid laugh, holding a small cake with candles. Use warm, natural light, clear detail in the face, hair and clothes, and a simple background so I stay the main focus. Shoot it in a vertical 3 to 4 frame, as if taken on a 35mm lens with a shallow depth of field. The final photo should look like a real photo taken on a good day, with true colours and gentle shadows.</p><button class="copybtn" type="button" onclick="copyPrompt(this)">Copy prompt</button></div></div>
+<div class="example-card"><h3>Couple at a rainy cafe window</h3><div class="prompt-box"><p class="prompt-text">Create a realistic, natural photo from my uploaded photo. Keep both faces exactly the same as in the uploaded photo, with the same eyes, smiles, hair and skin tone. Do not change either person into someone else, and do not make the skin look smooth or plastic. Show me and my partner sitting by a cafe window on a rainy afternoon, warm mugs in our hands, soft light on our faces and rain on the glass behind us. Keep the pose relaxed and natural, leaning in a little, like a real moment, not a posed shoot. Use warm indoor light, clear detail in the faces, hair and clothes, and a simple background so we stay the main focus. Shoot it in a vertical 3 to 4 frame, as if taken on a 35mm lens with a shallow depth of field. The final photo should look like a real photo taken on a good day, with true colours and gentle shadows.</p><button class="copybtn" type="button" onclick="copyPrompt(this)">Copy prompt</button></div></div>
+<div class="example-card"><h3>Baby first month by the window</h3><div class="prompt-box"><p class="prompt-text">Create a realistic, natural photo from my uploaded photo. Keep the baby exactly the same as in the uploaded photo, with the same face, eyes, hair and skin tone. Do not change the baby into someone else, and do not make the skin look smooth or plastic. Show my baby in the first month, wrapped in a soft cream blanket by a bright window, in soft morning light. Keep everything calm and gentle, a quiet moment, not a posed shoot. Use soft, natural light, clear detail in the face and blanket, and a simple background so the baby stays the main focus. Shoot it in a vertical 3 to 4 frame, as if taken on a 35mm lens with a shallow depth of field. The final photo should look like a real photo taken on a good day, with true colours and gentle shadows.</p><button class="copybtn" type="button" onclick="copyPrompt(this)">Copy prompt</button></div></div>
+</div>
+<h2>5 tips for a better result</h2>
+<ol class="tips"><li>Start with a clear photo taken from the front, in good light. I wasted a week blaming prompts before I realised my starting photos were the problem.</li><li>Change one thing at a time. If you change the light, the style and the background all at once, you will never know which one fixed it.</li><li>Try the same prompt in both Gemini and ChatGPT. I do this every time, because the same words give me a different photo in each tool, and one of them is usually better.</li><li>Ask for soft light when the face matters most. Harsh sun and strong flash are the two things that change a face fastest in my experience.</li><li>Save the version you like before you try again. I lost a good one once by pressing send again without saving it, and I still think about that photo.</li></ol>
+<h2>Builder questions</h2>
+<div class="faq"><details><summary>Is the Prompt Builder free?</summary><p>Yes, it is free, and there is no sign up. I built it to be free because the whole site is free, and I am not going to charge you for picking five things from a list.</p></details><details><summary>Do I need an account to use it?</summary><p>No, you do not. You can build and copy as many prompts as you like without an account. You may need an account on Gemini or ChatGPT itself, but that is the tool asking, not me.</p></details><details><summary>Which photo should I start with?</summary><p>Use a clear photo taken from the front, in good light, where you can see the face properly. I always pick the sharpest one I have, even if it is not my favourite, because a sharp photo keeps the face much closer to the real thing.</p></details><details><summary>Can I use the prompt in any AI tool?</summary><p>Yes. The prompt it builds works in Gemini, ChatGPT and Grok, and I have tried it in all three. Try Gemini first if you are in a hurry, then ChatGPT with the same photo, and keep the one you like best.</p></details></div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is the Prompt Builder free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is free, and there is no sign up. I built it to be free because the whole site is free, and I am not going to charge you for picking five things from a list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an account to use it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, you do not. You can build and copy as many prompts as you like without an account. You may need an account on Gemini or ChatGPT itself, but that is the tool asking, not me."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which photo should I start with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use a clear photo taken from the front, in good light, where you can see the face properly. I always pick the sharpest one I have, even if it is not my favourite, because a sharp photo keeps the face much closer to the real thing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use the prompt in any AI tool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The prompt it builds works in Gemini, ChatGPT and Grok, and I have tried it in all three. Try Gemini first if you are in a hurry, then ChatGPT with the same photo, and keep the one you like best."
+      }
+    }
+  ]
+}
+</script>
 <p><a href="index.html">Browse all guides</a> | <a href="index.html">Back to the home page</a></p>
 </article></div></main>
 <footer class="site"><div class="wrap"><div class="cols"><div class="footer-brand"><a class="brand" href="index.html"><span class="logo-mark" aria-hidden="true"><svg width="34" height="34" viewBox="0 0 34 34"><rect width="34" height="34" rx="9" fill="#f97316"/><path d="M26 5l1.1 2.9 2.9 1.1-2.9 1.1L26 13l-1.1-2.9-2.9-1.1 2.9-1.1z" fill="#fff"/><text x="9" y="24" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#fff">P</text></svg></span>Prompt <span>Haven</span></a><p>Free AI photo prompts, written and tested by a real person. Copy one, paste it with your own photo, and make a picture you actually like.</p></div><div><h3 class="footer-heading">Browse</h3><ul class="footer-links"><li><a href="christmas-prompts.html">Christmas</a></li><li><a href="couple-prompts.html">Couple</a></li><li><a href="family-baby-prompts.html">Family and Baby</a></li><li><a href="festive-prompts.html">Festive</a></li><li><a href="trending-prompts.html">Trending</a></li></ul></div><div><h3 class="footer-heading">About the site</h3><ul class="footer-links"><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="terms.html">Terms</a></li></ul></div><div><h3 class="footer-heading">Popular guides</h3><ul class="footer-links"><li><a href="christmas-family-photo.html">Christmas Family Photo</a></li><li><a href="couple-aesthetic.html">Couple Aesthetic</a></li><li><a href="wedding.html">Wedding Photo</a></li><li><a href="maternity.html">Maternity Photo</a></li><li><a href="eid-family-photo.html">Eid Family Photo</a></li></ul></div></div><div class="footer-legal"><p class="fine">Prompt Haven is not linked to Google, OpenAI, or any other AI tool named on this site. Every prompt is free, and every photo you make will look a little different. That is just how these tools work.</p><p class="fine">Copyright 2026 Prompt Haven. All prompts on this site are original and free to use for your own photos.</p></div></div></footer>
+<button id="toTop" type="button" aria-label="Back to top" title="Back to top">↑</button>
 <script src="script.js"></script>
 <script>
 function buildPrompt() {
@@ -110,6 +179,8 @@ function fallbackCopy(text, done) {
   document.body.removeChild(ta);
   done();
 }
+document.querySelectorAll('.builder-form select').forEach(function(sel){sel.addEventListener('change',buildPrompt);});
+buildPrompt();
 </script>
 </body>
 </html>
