@@ -63,8 +63,8 @@ After deploy, add your real domain in Cloudflare Pages under Custom domains, and
 
 ## Still needed from the site owner
 
-- Real domain name. The site currently uses `prompthaven.example` as a placeholder.
-- Real contact email. The Contact page shows `hello@prompthaven.example` as a clear placeholder.
+- Real domain name. The site currently uses `prompt-haven.com` as a placeholder.
+- Real contact email. The Contact page shows `hello@prompt-haven.com` as a clear placeholder.
 - Real GA4 measurement ID, if analytics are wanted. No GA4 code is on the site yet.
 - AdSense code only after approval. Do not add AdSense code before approval.
 - More posts to reach 96, like the original site. This launch version has 30.

@@ -48,14 +48,14 @@ This file records what the original site does, in summary, and what Prompt Haven
 - One original featured illustration per post, not one sample image per prompt. Each prompt block has a Copy button and links to Gemini, ChatGPT, and Grok.
 - All wording, prompts, and images are original, written and made for Prompt Haven.
 - Author is Muhammad Afaq, writer and AI prompt creator. No degrees, years of experience, awards, employers, or locations are claimed for him, because none were supplied.
-- Contact email is a clear placeholder, `hello@prompthaven.example`, until the owner gives a real one.
+- Contact email is a clear placeholder, `hello@prompt-haven.com`, until the owner gives a real one.
 - No AdSense code and no GA4 code on the site yet. Both are listed as still needed, below.
 - Dates are spread from 1 October to 20 November 2026 for the 24 non Christmas guides, with 6 Christmas guides dated 21 November to 5 December 2026, ready ahead of December.
 
 ## What still needs the site owner
 
-- Real domain name. The site currently uses `prompthaven.example` as a placeholder in canonical links, sitemap, robots, and llms.txt.
-- Real contact email. Replace `hello@prompthaven.example` on the Contact page and in the footer if needed.
+- Real domain name. The site currently uses `prompt-haven.com` as a placeholder in canonical links, sitemap, robots, and llms.txt.
+- Real contact email. Replace `hello@prompt-haven.com` on the Contact page and in the footer if needed.
 - Real GA4 measurement ID, if analytics are wanted. No GA4 code is on the site yet.
 - AdSense code only after approval. Do not add AdSense code before approval, and do not claim approval until it happens.
 - More posts to reach 96, like the original site. This launch version has 30 posts. Add new posts in the same format, with the same date and sitemap rules.

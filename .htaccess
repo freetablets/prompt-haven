@@ -1,0 +1,27 @@
+# Prompt Haven - clean URLs, no .html at the end
+# Apache-style rewrite rules, read by OpenLiteSpeed from this file.
+# If CyberPanel ever ignores this file, paste the same rules into
+# CyberPanel > Websites > prompt-haven.com > Rewrite Rules.
+
+RewriteEngine On
+RewriteBase /
+
+# 1. /index.html -> / (homepage)
+RewriteRule ^index\.html$ / [R=301,L]
+
+# 2. /slug.html -> /slug/ (301, keeps the real request visible)
+RewriteCond %{THE_REQUEST} \s/([^.\s?]+)\.html[\s?] [NC]
+RewriteRule ^([^.]+)\.html$ /$1/ [R=301,L]
+
+# 3. /slug (no trailing slash) -> /slug/ when a matching page exists
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^/]+)$ /$1/ [R=301,L]
+
+# 4. Serve /slug/ from the slug.html file on disk (internal rewrite, no redirect)
+# Real files (images, fonts, css, js, sitemap.xml, robots.txt) are never rewritten.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^/]+)/$ $1.html [L]
