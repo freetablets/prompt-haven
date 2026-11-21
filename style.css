@@ -145,12 +145,13 @@ header.site{border-bottom:1px solid #e2e8f0;background:#fff;position:sticky;top:
 .page-head p{font-size:18px;max-width:760px}
 
 /* Footer */
-footer.site{background:#0f172a;color:#cbd5e1;padding:48px 0 32px;margin-top:48px}
+footer.site{background:#0f172a;color:#cbd5e1;padding:48px 0 32px;margin-top:48px;border-top:3px solid #f97316}
 footer.site .brand{color:#fff}
 footer.site .brand:hover{color:#fff}
 footer.site a{color:#e2e8f0;text-decoration:none}
-footer.site a:hover{color:#fff;text-decoration:underline}
-footer.site .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+footer.site a:hover{color:#fdba74;text-decoration:underline}
+footer.site .cols{display:grid;grid-template-columns:1.75fr 1fr 1fr 1fr;gap:28px;align-items:start}
+.footer-legal{border-top:1px solid #334155;margin-top:30px;padding-top:20px}
 .footer-heading{color:#fff;font-size:16px;font-weight:800;margin:0 0 12px}
 .footer-brand p{font-size:15px}
 .footer-links{list-style:none;margin:0;padding:0}
@@ -200,6 +201,16 @@ h2{font-size:25px}
 .author-btn:hover{background:#ea580c;text-decoration:none}
 .btn-primary{display:inline-block;background:#f97316;color:#fff !important;padding:11px 18px;border-radius:10px;text-decoration:none;font-weight:700}
 .btn-primary:hover{background:#ea580c;text-decoration:none}
-.footer-brand{display:flex;align-items:center;gap:10px;font-weight:800;color:#fff;font-size:20px;margin-bottom:8px}
+.footer-brand .brand{display:flex;align-items:center;gap:10px;font-weight:800;color:#fff;font-size:20px;margin-bottom:10px}
+.footer-brand p{font-size:15px;line-height:1.55;margin:0;max-width:300px}
 .card > img{width:100%;height:190px;object-fit:cover;display:block;background:#e2e8f0}
 @media(max-width:640px){.tool-row{grid-template-columns:1fr 1fr}.article-card{padding:20px}}
+
+/* My pick box and bulk actions */
+.my-pick{background:#fff7ed;border:1px solid #fed7aa;border-left:4px solid #f97316;border-radius:12px;padding:14px 16px;margin:18px 0}
+.my-pick strong{color:#0f172a;font-size:16px}
+.my-pick p{margin:6px 0 0}
+.bulk-actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 6px}
+.bulk-actions .btn{padding:11px 20px;font-size:15px}
+.bulk-actions .bulk-download{background:#0f172a}
+.bulk-actions .bulk-download:hover{background:#1e293b}

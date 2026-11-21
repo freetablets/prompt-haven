@@ -35,8 +35,14 @@
 - [Spring Portrait Prompts: 10 Fresh Ideas for 2026](https://prompthaven.example/spring-portrait.html): 10 free spring portrait prompts for Gemini and ChatGPT. Use your own photo and make a fresh spring picture.
 - [Friends Portrait Prompts: 10 Fun Ideas for 2026](https://prompthaven.example/friends-portrait.html): 10 free friends portrait prompts for Gemini and ChatGPT. Use your own photos and make a fun, natural friends picture.
 
+- [Eid Family Photo Prompts: 10 Warm Ideas for 2026](https://prompthaven.example/eid-family-photo.html): 10 free Eid family photo prompts to turn your own photos into a warm picture for cards, gifts and family posts.
+- [Ramadan Lantern Portrait Prompts: 10 Ideas for 2026](https://prompthaven.example/ramadan-lantern-portrait.html): 10 free Ramadan lantern portrait prompts to turn your own photo into a calm, glowing portrait for the holy month.
+- [Desi Wedding Mehndi Prompts: 10 Ideas for 2026](https://prompthaven.example/desi-wedding-mehndi.html): 10 free Desi wedding mehndi prompts to turn your own photos into colourful, joyful mehndi pictures.
+- [Cricket Fan Portrait Prompts: 10 Fun Ideas for 2026](https://prompthaven.example/cricket-fan-portrait.html): 10 free cricket fan portrait prompts to turn your own photo into a fun, energetic stadium picture.
+
 ## Pages
 
+- [Custom Prompt Builder](https://prompthaven.example/builder.html)
 - [About](https://prompthaven.example/about.html)
 - [Contact](https://prompthaven.example/contact.html)
 - [Privacy Policy](https://prompthaven.example/privacy-policy.html)
