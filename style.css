@@ -214,3 +214,10 @@ h2{font-size:25px}
 .bulk-actions .btn{padding:11px 20px;font-size:15px}
 .bulk-actions .bulk-download{background:#0f172a}
 .bulk-actions .bulk-download:hover{background:#1e293b}
+.builder-form{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;margin:18px 0}
+.builder-form p{margin:0}
+.builder-form label{display:block;font-weight:700;color:#0f172a;margin-bottom:6px;font-size:15px}
+.builder-form select{width:100%;padding:12px 14px;font-size:16px;color:#0f172a;background:#fff;border:1.5px solid #dbe2ea;border-radius:12px;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%230f172a' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;cursor:pointer}
+.builder-form select:focus{outline:2px solid #f97316;border-color:#f97316}
+.builder-form .btn{grid-column:1/-1;justify-self:start}
+@media(max-width:640px){.builder-form{grid-template-columns:1fr}}
